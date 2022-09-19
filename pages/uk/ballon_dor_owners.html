@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html id="ballon_dor_owners_uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreatQuiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../css/quiz.css">
+    <link rel="stylesheet" type="text/css" href="../../css/ballon_dor_owners.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav-bar">
+        <a id="logo" href="index.html">GreatQuiz</a>
+
+        <div id="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </nav>
+
+      <ul id="nav-menu">
+        <li class="nav-link"><a href="index.html" id="home">Home</a></li>
+        <li class="nav-link active"><a href="football.html" class="football">Football</a></li>
+        <li class="nav-link"><a href="history.html" class="history">History</a></li>
+        <li class="nav-link"><a href="geography.html" class="geography">Geography</a></li>
+        <li class="nav-link"><a href="programming.html" class="programming">Programming</a></li>
+      </ul>
+    </header>
+
+    <section id="main-section">
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="answers-container">
+          <button class="answer"></button>
+          <button class="answer"></button>
+          <button class="answer"></button>
+          <button class="answer"></button>
+        </div>
+  
+        <div id="quiz-end-container">
+          <p id="final-result">Your score is:&nbsp;<span></span></p>
+          <p id="grade">Your grade is:&nbsp;<span></span></p>
+          <button id="restart">Restart</button>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div id="footer-container">
+        <p id="footer-logo">GreatQuiz</p>
+        <div id="language-container">
+          <a href="../ua/ballon_dor_owners.html">
+            <img src="../../images/ukraine_icon.png" draggable="false">
+            <p id="ua">Українська</p>
+          </a>
+          <a href="ballon_dor_owners.html">
+            <img src="../../images/uk_icon.png" draggable="false">
+            <p id="uk">English</p> 
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="../../scripts/quiz.js"></script>
+    <script src="../../scripts/header.js"></script>
+  </body>
+</html>

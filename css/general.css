@@ -1,0 +1,40 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, Arial;
+  padding-top: 90px;
+  padding-bottom: 140px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding-top: 90px;
+  }
+
+  body.active {
+    padding-top: 320px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellowgreen;
+  border-radius: 10px;
+}
